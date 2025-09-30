@@ -1,0 +1,10 @@
+---
+title: "FAQ"
+page-layout: article
+---
+
+**Why this blog?** Learning in public compounds. Writing clarifies thinking.
+
+**Update cadence?** Roughly one post per month + weekly log.
+
+**Corrections?** PRs, comments, or email welcome.

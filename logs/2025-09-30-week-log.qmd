@@ -1,0 +1,17 @@
+---
+title: "Week log — 2025-09-30"
+date: 2025-09-30
+page-layout: article
+---
+
+**Focus:** tighten eval for experiment X.
+
+**Shipped**
+- Implemented baseline Y.
+- Ran ablation Z.
+
+**Stuck**
+- Data leakage suspicion between train/dev.
+
+**Next**
+- Add stricter split; pre-register metrics.

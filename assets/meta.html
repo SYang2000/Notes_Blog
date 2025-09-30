@@ -1,0 +1,20 @@
+<div class="post-meta">
+  <span id="post-date">
+    {{< meta date >}}
+  </span>
+  <span aria-hidden="true">·</span>
+  <span id="reading-time" title="Estimated reading time">~? min read</span>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  try {
+    const main = document.querySelector("main.content") || document.querySelector("main#quarto-document-content") || document.querySelector("main");
+    if (!main) return;
+    const text = main.innerText || "";
+    const words = text.trim().split(/\s+/).length;
+    const minutes = Math.max(1, Math.round(words / 220));
+    const el = document.getElementById("reading-time");
+    if (el) el.textContent = `~${minutes} min read`;
+  } catch (e) { /* noop */ }
+});
+</script>

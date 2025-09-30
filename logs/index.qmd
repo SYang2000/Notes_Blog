@@ -1,0 +1,9 @@
+---
+title: "Weekly Logs"
+listing:
+  contents: .
+  sort: "date desc"
+  type: table
+page-layout: article
+---
+Short weekly summaries — plans, results, blockers.

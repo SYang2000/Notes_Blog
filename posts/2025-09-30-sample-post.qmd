@@ -1,0 +1,32 @@
+---
+title: "Sample: Long-form post structure"
+description: "An example showing headings, math, references, and tags."
+date: 2025-09-30
+categories: [llm, evaluation, notes]
+page-layout: article
+---
+
+> TL;DR: keep the skeleton consistent; let the ideas be messy.
+
+## 1. Context
+Set up the problem and why it matters.
+
+## 2. Related work
+Reference like this [@vaswani2017attention].
+
+## 3. Main ideas
+Inline math: $\nabla_x f(x)$.
+
+### 3.1 Sub-idea
+A paragraph, a figure, or a code block.
+
+```python
+def hello():
+    print("hello, world")
+```
+
+## 4. Limitations
+Be explicit about what you didn't try.
+
+## 5. References
+Quarto renders a bibliography at the end.

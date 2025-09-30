@@ -1,0 +1,52 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Shuo — Lil'Log-style Notes"
+  site-url: "https://<YOUR_GH_USERNAME>.github.io/<REPO_NAME>/"
+  navbar:
+    left:
+      - text: Posts
+        href: posts/index.qmd
+      - text: Archive
+        href: archive.qmd
+      - text: Search
+        href: search.qmd
+      - text: Tags
+        href: tags.qmd
+      - text: FAQ
+        href: faq.qmd
+    right:
+      - icon: github
+        href: https://github.com/<YOUR_GH_USERNAME>/<REPO_NAME>
+  search: true
+  page-navigation: true
+  repo-url: https://github.com/<YOUR_GH_USERNAME>/<REPO_NAME>
+  repo-actions: [edit, issue]
+  open-graph: true
+  twitter-card: true
+
+format:
+  html:
+    theme: cosmo
+    css: assets/styles.css
+    toc: true
+    toc-location: right
+    toc-depth: 3
+    code-copy: true
+    anchor-sections: true
+    df-print: default
+    include-before-body: assets/meta.html
+
+execute:
+  freeze: auto
+
+bibliography: _bibliography/references.bib
+csl: _bibliography/acl.csl
+
+author:
+  name: "Shuo"
+  orcid: ""
+
+editor: visual

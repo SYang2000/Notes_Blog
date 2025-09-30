@@ -1,0 +1,12 @@
+---
+title: "Welcome"
+page-layout: article
+---
+
+👋 Hi — this is my running notebook on NLP/LLMs. I keep posts long-form and reference-heavy, with a table of contents on the right.
+
+**Start here**:
+- **Posts**: curated long reads and paper notes.
+- **Archive**: all posts grouped by year.
+- **Tags**: topic index.
+- **FAQ**: meta and housekeeping.

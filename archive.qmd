@@ -1,0 +1,9 @@
+---
+title: "Archive"
+page-layout: article
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  group-by: "year"
+---

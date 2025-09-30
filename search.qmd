@@ -1,0 +1,17 @@
+---
+title: "Search"
+page-layout: article
+---
+
+Type below to search. Press `/` anywhere on the site to jump to search.
+
+<input id="search-input" placeholder="Search posts…" style="width:100%;padding:.6rem;border:1px solid #e5e7eb;border-radius:.5rem;margin:.5rem 0;">
+
+<script>
+  const input = document.getElementById('search-input');
+  if (input) {
+    input.addEventListener('focus', () => {
+      try { window.quartoOpenSearch && window.quartoOpenSearch(); } catch(e) {}
+    });
+  }
+</script>

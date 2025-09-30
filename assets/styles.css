@@ -1,0 +1,28 @@
+:root {
+  --content-max: 860px;
+}
+.page-full .content, .content {
+  max-width: var(--content-max);
+}
+h1.title { margin-bottom: .25rem; }
+.post-meta {
+  color: #6b7280;
+  font-size: 0.95rem;
+  margin-bottom: 1.25rem;
+}
+#TOC {
+  max-height: calc(100vh - 8rem);
+  overflow: auto;
+}
+.quarto-categories .quarto-category {
+  display: inline-block;
+  background: #f3f4f6;
+  border-radius: 9999px;
+  padding: .15rem .6rem;
+  margin-right: .4rem;
+  font-size: 0.85rem;
+}
+pre code { font-size: .9rem; }
+div.callout { border-left-width: 4px; }
+.archive-year { font-weight: 600; margin-top: 2rem; }
+.footer { color: #6b7280; }
