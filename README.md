@@ -1,4 +1,4 @@
-# Quarto Blog — Lil'Log-style
+# Quarto Blog
 
 This starter emulates the **format** of Lilian Weng's blog — long-form technical posts with:
 - Nav: Posts · Archive · Search · Tags · FAQ
